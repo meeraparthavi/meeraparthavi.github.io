@@ -1,0 +1,125 @@
+body{
+	padding: 3% 15% 3% 15%; 
+	background-color: black;
+	background-image: url('Galary/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+}
+
+#Container{
+	border-style: solid;
+	border: 1px solid black;
+	border-top-left-radius: 75px;
+	border-bottom-right-radius: 75px;
+	text-align: left;
+}
+
+#Name{
+	background-color: #FAFAD2;
+	border: 1px solid black;
+	border-top-left-radius: 75px;
+	height: 80px;
+	padding: 0px 0px 10px 120px;
+	background-image: url('Galary/button.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	font-family: Times New Roman;
+	font-size: 50px;
+	margin-top: 10px;
+	text-transform:uppercase;
+	color: #D2B48C;
+}
+
+#Logo{
+	background-image: url('Galary/logo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+	background-color: #FAFAD2;
+	border: 1px solid black;
+	height: 400px;
+}
+
+#nav{
+	background-image: url('Galary/button.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #800000;
+	border: 1px solid black;
+	padding: 0px 10px 0px 0px;
+}
+
+#nav ul{
+	list-style-type: none;
+	text-align: right;
+}
+
+#nav ul li{
+	background: 1px solid black;
+	width: 80px;
+	display: inline;
+	padding: 10px;
+}
+
+#nav ul li a{
+	text-decoration:none;
+	padding-top:10px;
+	padding-right:20px;
+	padding-bottom:10px;
+	padding-left:20px;
+	font-size:18px;
+	background-image: url('Galary/nav.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#nav ul li a:link{
+	color:#3A1F21;
+	
+}
+
+#nav ul li a:visited{
+	color: #3A1F21;
+}
+
+#nav ul li a:hover{
+	font-weight: bold;
+	background-image: url('Galary/hover.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 1px 1px 5px #FAF0E6;
+}
+
+#nav ul li a:active{
+	color: #3A1F21;
+}
+
+#Content{	
+	background-color: #FAFAD2;
+	border: 1px solid black;
+	height: 500px;
+	background-image: url('Galary/content.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#Content h2{
+	color:Black;
+	font-size: 30px;
+	text-align: center;
+	font-family: Times New Roman;
+}
+
+#Footer{
+	background-color: #FAFAD2;
+	border: 1px solid black;
+	border-bottom-right-radius: 75px;
+	height: 80px;
+	background-image: url('Galary/button.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
